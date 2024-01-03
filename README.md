@@ -1106,7 +1106,7 @@ also, install Nodemon: npm i --save-dev nodemon
 
 **index.ejs**
 
-```html
+```ejs
 <html>
 <head>
   <title>User Login</title>
@@ -1142,7 +1142,7 @@ also, install Nodemon: npm i --save-dev nodemon
 
 **LoginPage.js**
 
-```html
+```javascript
 const express = require("express");
 const app = express();
 const bcrypt = require("bcrypt");
@@ -1217,7 +1217,7 @@ app.post("/register", async (req, res) => {
 **register.ejs**
 
 
-```html
+```ejs
 <!DOCTYPE html>
 <html lang="en">
 <head>
